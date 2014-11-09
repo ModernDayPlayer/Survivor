@@ -1,0 +1,5 @@
+name: ${project.name}
+main: ${mainClass}
+author: ${author}
+version: ${project.version}
+depend: ['LibsDisguises', 'PluginAPI-Bukkit']

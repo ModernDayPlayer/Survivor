@@ -1,0 +1,115 @@
+MySQL:
+  Address: localhost
+  Port: 3306
+  Database: AuroraPerms
+  Username: root
+  Password: pass
+Max-Players: 24
+Minimum-Start: 4
+Server-Name: svlb
+Game-Time-Seconds: 500
+Percent-Of-People-To-Mutate: 20
+Vote-Token-Amount-Default: 1
+Vote-Token-Amount-VIP: 2
+Vote-Token-Amount-EVIP: 3
+Vote-Token-Amount-Staff: 4
+Current-Server: svlb
+Kits:
+  Survivors:
+    Survivor:
+      Permission: 'none'
+      Display-Item: 'WOOD_SWORD'
+      Items:
+        - type=WOOD_SWORD;amount=1;name=&a&lSurvivor's Sword;enchantments=UNBREAKING:10
+        - type=BOW;amount=1;name=&a&lSurvivor's Bow
+        - type=ARROW;amount=15;name=&a&lSurvivor's Arrows
+      Armor:
+        Helmet: type=CHAINMAIL_HELMET;amount=1;name=&a&lSurvivor's Helmet;enchantments=UNBREAKING:10
+        Chestplate: type=CHAINMAIL_CHESTPLATE;amount=1;name=&a&lSurvivor's Chestplate;enchantments=UNBREAKING:10
+        Leggings: type=CHAINMAIL_LEGGINGS;amount=1;name=&a&lSurvivor's Leggings;enchantments=UNBREAKING:10
+        Boots: type=CHAINMAIL_BOOTS;amount=1;name=&a&lSurvivor's Boots;enchantments=UNBREAKING:10
+    Runner:
+      Permission: 'none'
+      Display-Item: 'DIAMOND_BOOTS'
+      Items:
+        - type=WOOD_SWORD;amount=1;name=&a&lSurvivor's Sword;enchantments=UNBREAKING:10
+        - type=BOW;amount=1;name=&a&lSurvivor's Bow
+        - type=ARROW;amount=15;name=&a&lSurvivor's Arrows
+        - type=STICK;amount=1;name=&6&lActivate Running Shoes &7(Right Click)
+      Armor:
+        Helmet: type=CHAINMAIL_HELMET;amount=1;name=&a&lSurvivor's Helmet;enchantments=UNBREAKING:10
+        Chestplate: type=CHAINMAIL_CHESTPLATE;amount=1;name=&a&lSurvivor's Chestplate;enchantments=UNBREAKING:10
+        Leggings: type=CHAINMAIL_LEGGINGS;amount=1;name=&a&lSurvivor's Leggings;enchantments=UNBREAKING:10
+        Boots: type=DIAMOND_BOOTS;amount=1;name=&a&lSurvivor's Running Shoes;enchantments=UNBREAKING:10
+    Griefer:
+      Permission: 'survivor.class.survivor.griefer'
+      Display-Item: 'TNT'
+      Items:
+        - type=WOOD_SWORD;amount=1;name=&a&lSurvivor's Sword;enchantments=UNBREAKING:10
+        - type=BOW;amount=1;name=&a&lSurvivor's Bow
+        - type=ARROW;amount=15;name=&a&lSurvivor's Arrows
+        - type=TNT;amount=1;name=&c&lThrowable Explosives &7(Right Click)
+      Armor:
+        Helmet: type=CHAINMAIL_HELMET;amount=1;name=&a&lSurvivor's Helmet;enchantments=UNBREAKING:10
+        Chestplate: type=CHAINMAIL_CHESTPLATE;amount=1;name=&a&lSurvivor's Chestplate;enchantments=UNBREAKING:10
+        Leggings: type=CHAINMAIL_LEGGINGS;amount=1;name=&a&lSurvivor's Leggings;enchantments=UNBREAKING:10
+        Boots: type=CHAINMAIL_BOOTS;amount=1;name=&a&lSurvivor's Boots;enchantments=UNBREAKING:10
+    Arcanist:
+      Permission: 'survivor.class.survivor.arcanist'
+      Display-Item: 'IRON_HOE'
+      Items:
+        - type=WOOD_SWORD;amount=1;name=&a&lSurvivor's Sword;enchantments=UNBREAKING:10
+        - type=BOW;amount=1;name=&a&lSurvivor's Bow
+        - type=ARROW;amount=15;name=&a&lSurvivor's Arrows
+        - type=IRON_HOE;amount=1;name=&b&lFreeze Ray &7(Right Click)
+      Armor:
+        Helmet: type=CHAINMAIL_HELMET;amount=1;name=&a&lSurvivor's Helmet;enchantments=UNBREAKING:10
+        Chestplate: type=CHAINMAIL_CHESTPLATE;amount=1;name=&a&lSurvivor's Chestplate;enchantments=UNBREAKING:10
+        Leggings: type=CHAINMAIL_LEGGINGS;amount=1;name=&a&lSurvivor's Leggings;enchantments=UNBREAKING:10
+        Boots: type=CHAINMAIL_BOOTS;amount=1;name=&a&lSurvivor's Boots;enchantments=UNBREAKING:10
+  Mutants:
+    Zombie:
+      Permission: 'none'
+      Display-Item: 'STONE_SWORD'
+      Items:
+        - type=STONE_SWORD;amount=1;name=&c&lZombie's Sword;enchantments=UNBREAKING:10
+        - type=NETHER_STAR;amount=1;name=&c&lZombie's Nether Healer
+      Armor:
+        Helmet: type=LEATHER_HELMET;amount=1;name=&c&lMutants's Helmet;enchantments=UNBREAKING:10
+        Chestplate: type=LEATHER_CHESTPLATE;amount=1;name=&c&lMutant's Chestplate;enchantments=UNBREAKING:10
+        Leggings: type=LEATHER_LEGGINGS;amount=1;name=&c&lMutant's Leggings;enchantments=UNBREAKING:10
+        Boots: type=CHAINMAIL_BOOTS;amount=1;name=&c&lMutant's Boots;enchantments=UNBREAKING:10
+    Skeleton:
+      Permission: 'none'
+      Display-Item: 'BOW'
+      Items:
+        - type=STONE_SWORD;amount=1;name=&7&lSkeleton's Stolen Sword;enchantments=UNBREAKING:10
+        - type=BOW;amount=1;name=&7&lSkeleton's Explosive Bow &7(Right Click)
+        - type=ARROW;amount=32;name=&7&lSkeleton's Explosive Ammo &7(Right Click)
+      Armor:
+        Helmet: type=LEATHER_HELMET;amount=1;name=&7&lSkeleton's Helmet;rgb=138,137,137;enchantments=UNBREAKING:10
+        Chestplate: type=LEATHER_CHESTPLATE;amount=1;name=&7&lSkeleton's Chestplate;rgb=138,137,137;enchantments=UNBREAKING:10
+        Leggings: type=LEATHER_LEGGINGS;amount=1;name=&7&lSkeleton's Leggings;rgb=138,137,137;enchantments=UNBREAKING:10
+        Boots: type=CHAINMAIL_BOOTS;amount=1;name=&7&lSkeleton's Boots;enchantments=UNBREAKING:10
+    Blaze:
+      Permission: 'survivor.class.mutant.blaze'
+      Display-Item: 'BLAZE_POWDER'
+      Items:
+        - type=STONE_SWORD;amount=1;name=&6&lBlaze's Sword;enchantments=UNBREAKING:10
+        - type=BLAZE_ROD;amount=1;name=&6&lFireball Launcher &7(Right Click)
+      Armor:
+        Helmet: type=LEATHER_HELMET;amount=1;name=&6&lBlaze's Helmet;rgb=228,145,3;enchantments=UNBREAKING:10
+        Chestplate: type=LEATHER_CHESTPLATE;amount=1;name=&6&lBlaze's Chestplate;rgb=228,145,3;enchantments=UNBREAKING:10
+        Leggings: type=LEATHER_LEGGINGS;amount=1;name=&6&lBlaze's Leggings;rgb=228,145,3;enchantments=UNBREAKING:10
+        Boots: type=CHAINMAIL_BOOTS;amount=1;name=&6&lBlaze's Boots;rgb=228,145,3;enchantments=UNBREAKING:10
+    Wither:
+      Permission: 'survivor.class.mutant.wither'
+      Display-Item: 'FIRE'
+      Items:
+        - type=STONE_SWORD;amount=1;name=&0&lWither's Sword;enchantments=UNBREAKING:10
+        - type=STICK;amount=1;name=&0&lWither's Staff &7(Right Click)
+      Armor:
+        Helmet: type=LEATHER_HELMET;amount=1;name=&0&lWither's Helmet;rgb=0,0,0;enchantments=UNBREAKING:10
+        Chestplate: type=LEATHER_CHESTPLATE;amount=1;name=&0&lWither's Chestplate;rgb=0,0,0;enchantments=UNBREAKING:10
+        Leggings: type=LEATHER_LEGGINGS;amount=1;name=&0&lWither's Leggings;rgb=0,0,0;enchantments=UNBREAKING:10
+        Boots: type=CHAINMAIL_BOOTS;amount=1;name=&0&lWither's Boots;rgb=0,0,0;enchantments=UNBREAKING:10
